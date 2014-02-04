@@ -1,0 +1,25 @@
+Installation for IntelliJ
+-------------------------
+
+Copy `KnewtonStyle.xml` to the `codestyles` directory in your
+preferences home.
+
+On OS X, likely locations are:
+
+    ~/Library/Preferences/IntelliJIdea12/codestyles
+    ~/Library/Preferences/IdeaIC12/codestyles
+
+To use the KnewtonStyle, navigate to the IntelliJ settings dialog,
+go to Code Style > Java > Scheme, and select "KnewtonStyle"
+
+To reformat code before you commit, use ALT+CMD+L on OS X, or
+create configure your own bindings under the "Reformat Code" KeyMap.
+
+Additional Changes
+------------------
+
+In the preferences:
+
+   File Templates > Includes tab
+
+Then, remove all pre-specified content and Apply changes.

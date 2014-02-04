@@ -1,0 +1,22 @@
+Installation for Eclipse
+------------------------
+
+Import KnewtonCleanup.xml with:
+
+    Eclipse > Preferences > Java > Code Style > Clean Up > Import
+
+and KnewtonFormatter.xml with:
+
+    Eclipse > Preferences > Java > Code Style > Formatter > Import
+
+and Knewton.importorder with:
+
+    Eclipse > Preferences > Java > Code Style > Organize Imports > Import
+
+Also on this page, change number of imports and static imports needed
+for .* to 7.
+
+To reformat code before you commit, you can use CMD-SHIFT-F. You can
+also auto-format every time you save by setting
+
+    Eclipse > Preferences > Java > Editor > Save Actions
