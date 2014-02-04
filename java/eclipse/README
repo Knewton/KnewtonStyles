@@ -1,7 +1,5 @@
 Installation for Eclipse
-
-These code style configuration files are necessary for complying
-with the Knewton coding standards.
+------------------------
 
 Import KnewtonCleanup.xml with:
 
